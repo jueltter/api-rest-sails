@@ -12,9 +12,10 @@ module.exports = {
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    name: { type: 'string'},
-    string: { type: 'string'},
-
+    title: { type: 'string', required: true, minLength: 5, maxLength: 50},
+    start: { type: 'string', required: true},
+    end: { type: 'string'},
+    wayPoints: { type: 'json'}
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
