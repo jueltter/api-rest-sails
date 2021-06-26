@@ -51,10 +51,8 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
-    adapter: 'sails-mongo',
-    port: '27017',
-    host: '127.0.0.1',
-    database: 'platziride'
+    adapter: 'sails-mysql',
+    url: 'mysql://stalin:password@192.168.56.12:3306/platziride_db'
 
   },
 
